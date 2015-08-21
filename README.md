@@ -1,8 +1,3 @@
----
-title: "Human Activity Recognition Using Smartphones Dataset"
-output: html_document
----
-
 This document describes the steps which the **run_analysis.R** script goes through to get the final tidy data set. These are extracting data from .txt into R objects, merging the data sets into one, transforming tables and selecting only required measures.  
 The script should be placed into **UCI HAR Dataset** folder
 
@@ -27,7 +22,7 @@ the **merge** function is used for that.
  * Then, these names is passed to column names of a final data set using the colnames() function.
 
 ### Select variables
-Select only those variables which are **mean()** or **std()*  
+Select only those variables which are **mean()** or **std()**  
 **grep()** function is used for that.
 
 ### Rename variables

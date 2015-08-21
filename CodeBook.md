@@ -1,8 +1,3 @@
----
-title: "Data dictionary for a final tidy data set"
-output: html_document
----
-
 This document describes variables of a final data set with average values of mean and std variables from initial data.
 
 #### activityType
